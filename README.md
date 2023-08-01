@@ -1,6 +1,6 @@
 # Task list
 
-
+![OpenGraph](https://github.com/GracjanaKromska/todos-list-react/blob/main/images/screenshot.png)
 
 ## Technologies used in the project:
 - HTML
