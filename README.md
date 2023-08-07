@@ -2,7 +2,12 @@
 
 ![OpenGraph](https://github.com/GracjanaKromska/todos-list-react/blob/main/images/screenshot.png)
 
+## Demo
+
+https://gracjanakromska.github.io/todos-list-react/
+
 ## Technologies used in the project:
+
 - HTML
 - CSS with BEM convention
 - JavaScript
