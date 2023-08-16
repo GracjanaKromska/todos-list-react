@@ -9,12 +9,16 @@ https://gracjanakromska.github.io/todos-list-react/
 ## Technologies used in the project:
 
 - HTML
-- CSS with BEM convention
+- CSS
 - JavaScript
 - Grid
 - Flex
 - MediaQueries
 - React
+- Immutability
+- Local Storage
+- Styled Components
+- Custom Hooks
 
 ## Description
 
