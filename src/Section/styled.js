@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Wrapper = styled.section`
+export const StyledSection = styled.section`
     margin: 10px 0;
     background: ${({ theme }) => theme.color.white};
     box-shadow: 0 0 5 px ${({ theme }) => theme.color.alto};
@@ -17,7 +17,7 @@ export const Header = styled.header`
 
     @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
         grid-template-columns: 1fr;
-}
+    }
 `;
 
 export const Title = styled.h2`
