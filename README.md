@@ -19,6 +19,7 @@ https://gracjanakromska.github.io/todos-list-react/
 - Local Storage
 - Styled Components
 - Custom Hooks
+- Redux
 
 ## Description
 
