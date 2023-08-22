@@ -16,7 +16,6 @@ https://gracjanakromska.github.io/todos-list-react/
 - MediaQueries
 - React
 - Immutability
-- Local Storage
 - Styled Components
 - Custom Hooks
 - Redux
