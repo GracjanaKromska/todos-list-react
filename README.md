@@ -19,6 +19,10 @@ https://gracjanakromska.github.io/todos-list-react/
 - Styled Components
 - Custom Hooks
 - Redux
+- React Redux
+- Redux Toolkit
+- Redux Saga
+- React Router
 
 ## Description
 
