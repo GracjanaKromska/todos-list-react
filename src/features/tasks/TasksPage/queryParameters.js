@@ -16,7 +16,7 @@ export const useReplaceQueryParameter = () => {
         if (value === undefined) {
             searchParams.delete(key);
         } else {
-            searchParams.set(ket, value);
+            searchParams.set(key, value);
         }
 
         const newSearch = searchParams.toString();
