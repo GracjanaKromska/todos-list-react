@@ -4,6 +4,7 @@ import Buttons from "./Buttons";
 import Section from "../../../common/Section";
 import Header from "../../../common/Header";
 import Search from "./Search";
+import ExampleButton from "./ExampleButton";
 
 function TasksPage() {
   return (
@@ -11,6 +12,7 @@ function TasksPage() {
       <Header title="Lista zadań" />
       <Section
         title="Dodaj nowe zadanie"
+        extraHeaderContent={<ExampleButton />}
         body={<Form />}
       />
 
