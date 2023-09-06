@@ -1,4 +1,4 @@
-import { styled } from "styled-components";
+import styled, { css } from "styled-components";
 
 export default styled.button`
     background: transparent;
@@ -20,7 +20,10 @@ export default styled.button`
         filter: brightness(120%);
     }
 
-    &:disabled {
-        color: ${({ theme }) => theme.color.silver};
-    }
+    ${({ disabled }) =>
+        disabled &&
+        css`
+            color: ${({ theme }) => theme.color.silver};
+        `
+    }  
 `;
