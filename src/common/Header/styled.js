@@ -9,6 +9,6 @@ export const HeaderPage = styled.header`
 
 export const HeaderTittle = styled.h1`
     max-width: 1000px;
-    margin: 10px auto;
+    margin: 20px auto;
     padding-top: 20px;
 `;

@@ -20,10 +20,7 @@ export default styled.button`
         filter: brightness(120%);
     }
 
-    ${({ disabled }) =>
-        disabled &&
-        css`
-            color: ${({ theme }) => theme.color.silver};
-        `
+    &:disabled {
+        color: ${({ theme }) => theme.color.silver};
     }  
 `;
