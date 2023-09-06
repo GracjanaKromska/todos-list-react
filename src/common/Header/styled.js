@@ -8,6 +8,7 @@ export const HeaderPage = styled.header`
 `;
 
 export const HeaderTittle = styled.h1`
-    justify-content: flex-start;
+    max-width: 1000px;
+    margin: 10px auto;
     padding-top: 20px;
 `;
