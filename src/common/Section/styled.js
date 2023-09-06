@@ -1,12 +1,14 @@
 import styled from "styled-components";
 
 export const StyledSection = styled.section`
-    margin: 10px 0;
+    max-width: 1000px;
+    margin: 10px auto;
     background: ${({ theme }) => theme.color.white};
     box-shadow: 0 0 5 px ${({ theme }) => theme.color.alto};
 `;
 
 export const Header = styled.header`
+    max-width: 1000px;
     border-bottom: 1px solid ${({ theme }) => theme.color.alto};
     display: grid;
     grid-template-columns: auto auto;
