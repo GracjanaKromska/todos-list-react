@@ -8,8 +8,6 @@ export const StyledSection = styled.section`
 `;
 
 export const Header = styled.header`
-    max-width: 1000px;
-    margin: 20px auto;
     border-bottom: 1px solid ${({ theme }) => theme.color.alto};
     display: grid;
     grid-template-columns: auto auto;
@@ -25,6 +23,7 @@ export const Header = styled.header`
 
 export const Title = styled.h2`
     font-size: 20px;
+    margin: 0px auto;
 `;
 
 export const Body = styled.div`
